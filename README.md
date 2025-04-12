@@ -115,10 +115,15 @@ Normal keyword arguments: Defined parameters with specific names.
 🧩 Summary Table: Parameters vs Arguments
 Concept	                      Definition	                           Example
 Formal Parameters    :	      Inside function definition	           def f(a, b):
+
 Actual Arguments     :	      Values passed during function call	   f(10, 20)
+
 Positional	         :        Ordered values passed directly	       f(1, 2)
-Keyword	Passed using :        key=value format	                     f(x=1, y=2)
+
+Keyword	Passed using :        key=value format	                       f(x=1, y=2)
+
 Default	Parameters   :        with default values	                   def f(a=5):
+
 Variable-length	Arbitrary arguments: *args, **kwargs	               def f(*a, **b):
 
 
