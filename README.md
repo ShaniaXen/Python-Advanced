@@ -113,7 +113,10 @@ Normal keyword arguments: Defined parameters with specific names.
 **kwargs: Accepts any number of named parameters, dynamically captured as dictionary key-value pairs.
     
 🧩 Summary Table: Parameters vs Arguments
-Concept	                      Definition	                           Example
+
+
+Concept	:                                Definition:	                           Example:
+
 Formal Parameters    :	      Inside function definition	           def f(a, b):
 
 Actual Arguments     :	      Values passed during function call	   f(10, 20)
